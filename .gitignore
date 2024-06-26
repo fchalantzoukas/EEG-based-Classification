@@ -1,0 +1,19 @@
+# Ignore the node_modules folder due to size - can be downloaded with npm easily
+node_modules/
+
+# Ignore the user data that are saved from previous runs
+*.xlsx
+*.csv
+user_extracted_data/
+
+# Ignore deprecated files
+deprecated_files/
+
+# Ignore the real user data that were extracted from the experiment
+recordings/
+
+# Ignore files used for testing purposes
+testing/
+
+# The database file, not needed
+**.db
